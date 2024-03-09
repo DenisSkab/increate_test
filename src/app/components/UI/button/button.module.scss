@@ -1,0 +1,15 @@
+.button {
+  display: flex;
+  align-items: center;
+  border-radius: 32px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  font-family: 'Mont-Regular', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+
+  & image {
+    margin-left: 4px;
+  }
+}
