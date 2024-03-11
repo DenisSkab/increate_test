@@ -15,7 +15,7 @@ const Header = () => {
       <div className={style.background}></div>
       <div className={style.headerInfo}>
         <Image src={logo} alt='logo' />
-        <div className={style.wrapper}>
+        <nav className={style.wrapper}>
           <ul className={style.headerNavigation}>
             <li className={style.projects}>
               Проекти
@@ -26,7 +26,7 @@ const Header = () => {
             <li>Контакти</li>
           </ul>
           <Button text='Зв`язатись з нами' image={arrow} style={style.button} />
-        </div>
+        </nav>
         <button className={style.burgerMenu}>
           <div className={style.burgerMenuLine}></div>
         </button>
